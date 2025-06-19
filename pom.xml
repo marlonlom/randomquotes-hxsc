@@ -94,6 +94,10 @@
             </googleJavaFormat>
             <importOrder />
             <removeUnusedImports />
+             <indent>
+               <spaces>true</spaces>
+               <spacesPerTab>2</spacesPerTab>
+            </indent>
           </java>
         </configuration>
       </plugin>
