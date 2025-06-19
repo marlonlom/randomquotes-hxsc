@@ -15,7 +15,6 @@ import org.springframework.test.web.servlet.MockMvc;
 
 import dev.marlonlom.demos.hexagonalarch.randomquotes.application.port.inbound.GetRandomQuoteUseCase;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.model.RandomQuote;
-import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.RandomQuoteRestAdapter;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.data.response.RandomQuoteResponse;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.data.response.RandomQuoteResponseItem;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.mapper.RandomQuoteResponseRestMapper;
