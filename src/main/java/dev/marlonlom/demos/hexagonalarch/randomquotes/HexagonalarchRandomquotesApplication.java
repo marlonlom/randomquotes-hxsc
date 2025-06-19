@@ -13,7 +13,7 @@ import io.swagger.v3.oas.annotations.info.Info;
  * @version 1.0.0
  */
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "Random Quotes Hexagon API", version = "1.0.0", description = "Api definition for random quotes implementation, using hexagonal architecture"))
+@OpenAPIDefinition(info = @Info(title = "Random Quotes Hexagon API", version = "1.0.0", description = "API Design for Random Quotes: An Exploration of Hexagonal Architecture"))
 public class HexagonalarchRandomquotesApplication {
 
 	/**
