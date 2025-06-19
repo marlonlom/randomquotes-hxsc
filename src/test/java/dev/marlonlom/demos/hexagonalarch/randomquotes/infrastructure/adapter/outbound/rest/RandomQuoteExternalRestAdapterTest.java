@@ -21,7 +21,6 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import org.springframework.web.client.RestTemplate;
 
 import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.model.RandomQuote;
-import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.outbound.rest.RandomQuoteExternalRestAdapter;
 
 @SpringBootTest
 class RandomQuoteExternalRestAdapterTest {

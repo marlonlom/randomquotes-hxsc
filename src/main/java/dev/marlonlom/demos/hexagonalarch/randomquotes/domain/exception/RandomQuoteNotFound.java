@@ -1,5 +1,6 @@
 package dev.marlonlom.demos.hexagonalarch.randomquotes.domain.exception;
 
+import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.data.failure.RandomQuoteNotFoundAdvice;
 import io.swagger.v3.oas.annotations.media.Schema;
 
 /**

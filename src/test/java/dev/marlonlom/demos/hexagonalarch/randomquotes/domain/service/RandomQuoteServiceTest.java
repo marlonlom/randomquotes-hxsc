@@ -15,7 +15,6 @@ import org.springframework.test.context.bean.override.mockito.MockitoBean;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.application.port.outbound.RandomQuoteOutboundPort;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.exception.RandomQuoteNotFound;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.model.RandomQuote;
-import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.service.RandomQuoteService;
 
 @SpringBootTest
 class RandomQuoteServiceTest {
