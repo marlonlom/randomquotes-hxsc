@@ -11,7 +11,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.model.RandomQuote;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.data.response.RandomQuoteResponse;
 import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.data.response.RandomQuoteResponseItem;
-import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.mapper.RandomQuoteResponseRestMapper;
 
 @SpringBootTest
 class RandomQuoteResponseRestMapperTest {
