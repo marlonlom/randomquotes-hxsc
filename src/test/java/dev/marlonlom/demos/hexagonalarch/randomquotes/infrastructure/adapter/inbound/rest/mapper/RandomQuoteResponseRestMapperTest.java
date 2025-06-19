@@ -1,4 +1,4 @@
-package dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.input.rest.mapper;
+package dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.mapper;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
