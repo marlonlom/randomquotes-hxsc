@@ -1,4 +1,4 @@
-package dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.input.rest;
+package dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest;
 
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
