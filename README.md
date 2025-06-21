@@ -1,4 +1,8 @@
 # randomquotes-hxsc
+![License](https://img.shields.io/github/license/marlonlom/randomquotes-hxsc?color=blue)
+![Build](https://img.shields.io/github/check-runs/marlonlom/randomquotes-hxsc/main?style=flat&label=Build)
+![CodeFactor](https://www.codefactor.io/repository/github/marlonlom/randomquotes-hxsc/badge)
+
 The Random Quotes Hexagon API is a Java microservice web application project for displaying random quotes via **Quotes Hub API**, is a modular and maintainable RESTful service designed using Hexagonal Architecture (also known as Ports and Adapters). Built with Java and Spring Boot, the application cleanly separates core business logic from external systems such as web APIs like **Quotes Hub API**. It delivers random quotes through a well-defined API interface, making it easy to test, extend, and adapt. The project is configured with Maven for dependency management and build automation, ensuring smooth integration and deployment workflows.
 
 ## How to Run 
