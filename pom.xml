@@ -91,7 +91,6 @@
             <googleJavaFormat>
               <version>1.27.0</version>
               <style>AOSP</style>
-              <reflowLongStrings>true</reflowLongStrings>
             </googleJavaFormat>
             <importOrder />
             <formatAnnotations />
