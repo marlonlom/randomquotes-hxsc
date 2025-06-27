@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.data.failure;
 
 import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.exception.RandomQuoteNotFound;
@@ -14,7 +18,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
  * Intercepts the exception and returns a standardized JSON error response with HTTP status {@code
  * 400 Bad Request}.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  */
 @RestControllerAdvice

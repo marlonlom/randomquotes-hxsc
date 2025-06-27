@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest.mapper;
 
 import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.model.RandomQuote;
@@ -10,7 +14,7 @@ import org.springframework.stereotype.Component;
  * This component is responsible for converting {@link RandomQuote} domain entities into {@link
  * RandomQuoteResponse} or related DTOs for API responses.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  */
 @Component

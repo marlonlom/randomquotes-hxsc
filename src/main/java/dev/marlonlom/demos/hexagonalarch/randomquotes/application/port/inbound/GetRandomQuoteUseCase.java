@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes.application.port.inbound;
 
 import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.model.RandomQuote;
@@ -11,7 +15,7 @@ import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.model.RandomQuote;
  * <br>
  * Implementations may retrieve quotes from different sources via output ports.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  * @see RandomQuote
  */

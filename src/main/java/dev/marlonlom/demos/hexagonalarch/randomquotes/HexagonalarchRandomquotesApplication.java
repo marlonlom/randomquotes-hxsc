@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes;
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
@@ -8,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 /**
  * Main entry point for the Random Quotes Spring Boot application.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  */
 @SpringBootApplication

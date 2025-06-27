@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inbound.rest;
 
 import dev.marlonlom.demos.hexagonalarch.randomquotes.application.port.inbound.GetRandomQuoteUseCase;
@@ -27,7 +31,7 @@ import org.springframework.web.bind.annotation.RestController;
  * <br>
  * Follows the principles of Hexagonal Architecture by acting as an input adapter.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  * @see GetRandomQuoteUseCase
  * @see RandomQuoteResponseRestMapper

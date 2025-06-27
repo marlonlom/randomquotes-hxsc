@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.outbound.rest;
 
 import dev.marlonlom.demos.hexagonalarch.randomquotes.application.port.outbound.RandomQuoteOutboundPort;
@@ -19,7 +23,7 @@ import org.springframework.web.client.RestTemplate;
  * This class serves as the infrastructure implementation of the output port, allowing the
  * application to remain decoupled from specific REST client logic.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  * @see RandomQuoteOutboundPort
  */
