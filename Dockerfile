@@ -1,3 +1,6 @@
+# Copyright 2025 marlonlom
+# SPDX-License-Identifier: Apache-2.0
+
 # Use an official OpenJDK runtime as a parent image
 FROM openjdk:17-alpine
 # Metadata as a label 
