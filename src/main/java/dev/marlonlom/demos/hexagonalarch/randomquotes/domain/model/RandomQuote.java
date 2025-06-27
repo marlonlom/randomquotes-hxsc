@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes.domain.model;
 
 import java.io.Serializable;
@@ -13,7 +17,7 @@ import lombok.Setter;
  * tags, and identifiers. It is used within the core domain layer of the application and is designed
  * to be serializable for transport or persistence.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  */
 @Getter

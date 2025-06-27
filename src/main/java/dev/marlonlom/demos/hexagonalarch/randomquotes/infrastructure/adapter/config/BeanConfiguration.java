@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.config;
 
 import org.springframework.context.annotation.Bean;
@@ -10,7 +14,7 @@ import org.springframework.web.client.RestTemplate;
  * This class registers infrastructure-level beans that can be injected throughout the application
  * using Spring's dependency injection mechanism.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  */
 @Configuration

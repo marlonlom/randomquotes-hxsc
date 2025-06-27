@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes.domain.service;
 
 import dev.marlonlom.demos.hexagonalarch.randomquotes.application.port.inbound.GetRandomQuoteUseCase;
@@ -13,7 +17,7 @@ import org.springframework.stereotype.Service;
  * This class implements the {@link GetRandomQuoteUseCase} interface, which defines the contract for
  * fetching random quotes.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  */
 @Service

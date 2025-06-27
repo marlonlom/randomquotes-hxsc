@@ -1,3 +1,7 @@
+/*
+ * Copyright 2025 marlonlom
+ * SPDX-License-Identifier: Apache-2.0
+ */
 package dev.marlonlom.demos.hexagonalarch.randomquotes.application.port.outbound;
 
 import dev.marlonlom.demos.hexagonalarch.randomquotes.domain.model.RandomQuote;
@@ -6,7 +10,7 @@ import java.util.Optional;
 /**
  * Outbound port interface for retrieving a random quote from a data source.
  *
- * @author marlon.lopez
+ * @author marlonlom
  * @version 1.0.0
  */
 public interface RandomQuoteOutboundPort {
