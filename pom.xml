@@ -77,8 +77,9 @@
         <executions>
           <execution>
             <goals>
-              <goal>apply</goal>
+              <goal>check</goal>
             </goals>
+            <phase>package</phase>
           </execution>
         </executions>
         <configuration>
@@ -88,15 +89,16 @@
               <include>src/test/java/**/*.java</include>
             </includes>
             <googleJavaFormat>
-              <version>1.7</version>
+              <version>1.27.0</version>
               <style>AOSP</style>
+              <reflowLongStrings>true</reflowLongStrings>
             </googleJavaFormat>
             <importOrder />
+            <formatAnnotations />
             <removeUnusedImports />
-             <indent>
-               <spaces>true</spaces>
-               <spacesPerTab>2</spacesPerTab>
-            </indent>
+            <importOrder />
+            <trimTrailingWhitespace />
+            <endWithNewline />
           </java>
         </configuration>
       </plugin>
