@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * Service class that provides functionality to retrieve random quotes.
- *
- * <p>This class implements the {@link GetRandomQuoteUseCase} interface, which defines the contract
- * for fetching random quotes.
+ * Service class that provides functionality to retrieve random quotes. <br>
+ * <br>
+ * This class implements the {@link GetRandomQuoteUseCase} interface, which defines the contract for
+ * fetching random quotes.
  *
  * @author marlon.lopez
  * @version 1.0.0
@@ -19,7 +19,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class RandomQuoteService implements GetRandomQuoteUseCase {
 
-    /** * Output port for accessing the random quote source. */
+    /** Output port for accessing the random quote source. */
     @Autowired private RandomQuoteOutboundPort randomQuoteOutputPort;
 
     @Override

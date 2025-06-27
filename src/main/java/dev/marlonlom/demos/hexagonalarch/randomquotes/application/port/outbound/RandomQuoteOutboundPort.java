@@ -12,9 +12,9 @@ import java.util.Optional;
 public interface RandomQuoteOutboundPort {
 
     /**
-     * Retrieves a random quote from an external REST API or service.
-     *
-     * <p>This method makes a call to an external source and maps the response to the domain model
+     * Retrieves a random quote from an external REST API or service. <br>
+     * <br>
+     * This method makes a call to an external source and maps the response to the domain model
      * {@link RandomQuote}. If no quote is found or the request fails, an empty {@link Optional} is
      * returned.
      *

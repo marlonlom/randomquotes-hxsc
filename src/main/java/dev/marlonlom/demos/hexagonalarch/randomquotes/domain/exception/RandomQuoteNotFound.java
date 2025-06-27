@@ -4,18 +4,18 @@ import dev.marlonlom.demos.hexagonalarch.randomquotes.infrastructure.adapter.inb
 import io.swagger.v3.oas.annotations.media.Schema;
 
 /**
- * Exception thrown when a random quote cannot be found.
- *
- * <p>This runtime exception is typically used in the application or domain layer to signal that no
- * quote was retrieved from the data source (e.g., external API, database).
- *
- * <p>Handled by global exception handlers (e.g., {@code @RestControllerAdvice}) to return an
+ * Exception thrown when a random quote cannot be found. <br>
+ * <br>
+ * This runtime exception is typically used in the application or domain layer to signal that no
+ * quote was retrieved from the data source (e.g., external API, database). <br>
+ * <br>
+ * Handled by global exception handlers (e.g., {@code @RestControllerAdvice}) to return an
  * appropriate HTTP response to the client.
  *
- * @see RuntimeException
- * @see RandomQuoteNotFoundAdvice
  * @author marlon.lopez
  * @version 1.0.0
+ * @see RuntimeException
+ * @see RandomQuoteNotFoundAdvice
  */
 @Schema(implementation = RandomQuoteNotFound.class)
 public class RandomQuoteNotFound extends RuntimeException {
