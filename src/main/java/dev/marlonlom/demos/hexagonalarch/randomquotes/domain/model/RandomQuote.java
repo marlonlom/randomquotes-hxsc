@@ -7,11 +7,11 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * Domain model representing a random quote.
- *
- * <p>This class encapsulates the essential data for a quote, including its text, author
- * information, tags, and identifiers. It is used within the core domain layer of the application
- * and is designed to be serializable for transport or persistence.
+ * Domain model representing a random quote. <br>
+ * <br>
+ * This class encapsulates the essential data for a quote, including its text, author information,
+ * tags, and identifiers. It is used within the core domain layer of the application and is designed
+ * to be serializable for transport or persistence.
  *
  * @author marlon.lopez
  * @version 1.0.0

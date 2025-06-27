@@ -19,9 +19,9 @@ import org.springframework.web.client.RestTemplate;
  * This class serves as the infrastructure implementation of the output port, allowing the
  * application to remain decoupled from specific REST client logic.
  *
- * @see RandomQuoteOutboundPort
  * @author marlon.lopez
  * @version 1.0.0
+ * @see RandomQuoteOutboundPort
  */
 @Component
 @Log4j2

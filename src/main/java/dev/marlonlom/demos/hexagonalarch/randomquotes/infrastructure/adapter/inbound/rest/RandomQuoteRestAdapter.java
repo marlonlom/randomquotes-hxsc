@@ -19,19 +19,19 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * REST adapter that exposes an HTTP endpoint for retrieving a random quote.
+ * REST adapter that exposes an HTTP endpoint for retrieving a random quote. <br>
+ * <br>
+ * This controller bridges the web layer with the application/business layer by invoking the {@link
+ * GetRandomQuoteUseCase} and mapping the domain model to a REST response using {@link
+ * RandomQuoteResponseRestMapper}. <br>
+ * <br>
+ * Follows the principles of Hexagonal Architecture by acting as an input adapter.
  *
- * <p>This controller bridges the web layer with the application/business layer by invoking the
- * {@link GetRandomQuoteUseCase} and mapping the domain model to a REST response using {@link
- * RandomQuoteResponseRestMapper}.
- *
- * <p>Follows the principles of Hexagonal Architecture by acting as an input adapter.
- *
+ * @author marlon.lopez
+ * @version 1.0.0
  * @see GetRandomQuoteUseCase
  * @see RandomQuoteResponseRestMapper
  * @see RandomQuoteResponse
- * @author marlon.lopez
- * @version 1.0.0
  */
 @RestController
 @RequestMapping(
